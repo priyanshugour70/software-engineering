@@ -1,154 +1,183 @@
 ## Product Strategy & Roadmap
 
-### Overview
+### What This Folder Is
 
-**Product Strategy & Roadmap** translates opportunities, research, and feasibility into a **coherent plan of what to build, in what order, and why**. In enterprises and banks, this phase aligns cross-functional teams and executives on **priorities, scope, and sequencing**.
+This folder is a **comprehensive handbook** for the *Product Strategy & Roadmap* phase.
 
-The output is a roadmap that balances **business impact, risk, dependencies, capacity, and constraints**.
+It explains how to go from:
 
+- validated **problems** and **business cases**  
+to:
+- a **coherent product strategy and roadmap** that:
+  - defines vision and strategic themes,
+  - connects them to measurable goals,
+  - sequences initiatives and epics over time,
+  - and aligns teams and executives around trade‑offs.
 
-### Objectives
+If you are a **beginner**, start with `01-concepts.md` and read in order.  
+If you are **experienced**, use the table of contents below to jump to specific topics.
 
-- **Define a clear product vision** aligned with company strategy.
-- **Establish strategic themes and goals**.
-- **Sequence features and capabilities** into a realistic roadmap.
-- **Align stakeholders** on trade-offs (time-to-market vs scope vs risk).
-- **Provide a framework** for ongoing prioritization.
+### Quick Table of Contents (Click to Navigate)
 
-This phase often produces the core planning artifacts used in quarterly or annual planning cycles.
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Vision & Product Strategy](./04-vision-and-product-strategy.md)
+  - [05 – Strategic Themes, Goals & OKRs](./05-strategic-themes-goals-and-okrs.md)
+  - [06 – Prioritization Frameworks](./06-prioritization-frameworks.md)
+  - [07 – Roadmap Levels & Views](./07-roadmap-levels-and-views.md)
+  - [08 – Portfolio & Theme Management](./08-portfolio-and-theme-management.md)
+  - [09 – Capacity Planning & Funding Models](./09-capacity-planning-and-funding-models.md)
+  - [10 – Dependencies & Sequencing](./10-dependencies-and-sequencing.md)
+- **Execution Enablers**
+  - [11 – Tools](./11-tools.md)
+  - [12 – Documents & Artifacts](./12-documents-and-artifacts.md)
+- **People & Skills**
+  - [13 – Roles and Positions](./13-roles-and-positions.md)
+  - [14 – Skills](./14-skills.md)
+  - [15 – Job Market](./15-job-market.md)
+  - [16 – Salary Benchmarks](./16-salary-benchmarks.md)
+- **Context & Patterns**
+  - [17 – Contexts and Domains](./17-contexts-and-domains.md)
+  - [18 – Startup vs Enterprise](./18-startup-vs-enterprise.md)
+  - [19 – Regulated vs Unregulated Products](./19-regulated-vs-unregulated-products.md)
+- **Learning from Examples**
+  - [20 – Case Studies](./20-case-studies.md)
+  - [21 – Real-World Examples](./21-real-world-examples.md)
+- **Quality & Governance**
+  - [22 – Best Practices](./22-best-practices.md)
+  - [23 – Common Mistakes](./23-common-mistakes.md)
+  - [24 – Governance, Alignment & Cadence](./24-governance-alignment-and-cadence.md)
+- **Assets for Execution**
+  - [25 – Templates](./25-templates.md)
+  - [26 – Checklists](./26-checklists.md)
+  - [27 – Glossary](./27-glossary.md)
 
+### Overview (Beginner Friendly)
 
-### Activities
+**Product Strategy & Roadmap** turns:
+
+- opportunities and problems,
+- research and feasibility,
+- business cases and constraints,
+
+into a **directional plan**:
+
+- what we will focus on,
+- what we will not focus on (for now),
+- in what order,
+- and how we will know if we are succeeding.
+
+It is about:
+
+- **why** we choose certain bets,
+- **how** they ladder up to strategy,
+- and **when** we expect to tackle them.
+
+### Objectives (Summary)
+
+> Detailed breakdown in `02-objectives.md`.
+
+- **Define a clear product vision** aligned with company and segment strategy.
+- **Establish strategic themes and goals** that guide trade‑offs.
+- **Sequence initiatives and epics** into a realistic roadmap, considering:
+  - value and risk,
+  - dependencies and capacity,
+  - regulatory and seasonal constraints.
+- **Align stakeholders** on priorities and expectations.
+- Provide a **framework for ongoing prioritization and adjustment**, not just a static plan.
+
+### Activities (Summary)
+
+> Step‑by‑step in `03-workflow.md`.
 
 - **Vision & Strategy Definition**
-  - Articulate the target state for the product (e.g., “digital-first SME lending platform”).
-  - Define strategic pillars (e.g., speed, transparency, risk control).
-
+  - articulate the target state and market position,
+  - define strategic pillars (e.g., speed, transparency, risk control).
 - **Goal & Objective Setting**
-  - Translate strategy into measurable objectives (e.g., OKRs).
-  - Distinguish between short-term and long-term goals.
-
+  - translate strategy into measurable objectives and key results (OKRs),
+  - distinguish short‑, medium‑, and long‑term goals.
 - **Initiative & Epic Definition**
-  - Break down the vision into initiatives and epics.
-  - Map epics to problem statements and business case components.
+  - group problems and opportunities into initiatives,
+  - break initiatives into epics tied to specific outcomes.
+- **Prioritization & Portfolio Balancing**
+  - use value/effort, RICE, WSJF, or other frameworks (`06-prioritization-frameworks.md`),
+  - balance:
+    - growth vs efficiency,
+    - innovation vs risk reduction,
+    - new features vs technical/platform work.
+- **Roadmap Structuring**
+  - create multiple roadmap views:
+    - multi‑year strategic,
+    - annual or quarterly,
+    - team‑level.
+  - define MVPs and release slices.
+- **Alignment & Communication**
+  - align:
+    - product,
+    - engineering,
+    - business,
+    - operations,
+    - risk/compliance,
+  - regularly review and update roadmaps based on new data.
 
-- **Prioritization**
-  - Use frameworks (e.g., RICE, WSJF, value vs effort) to prioritize work.
-  - Consider dependencies, regulatory deadlines, technical constraints.
+### Inputs & Outputs (Summary)
 
-- **Release & Milestone Planning**
-  - Group features into releases or program increments.
-  - Identify MVP scope ("must have" vs "nice to have").
-  - Define checkpoints (beta, general availability, expansions).
+**Inputs**
 
-- **Stakeholder Alignment**
-  - Validate roadmap with business, engineering, operations, and compliance.
-  - Secure sponsorship and funding.
+- Business cases and feasibility results from earlier phases.
+- Opportunity backlog and problem statements.
+- User and market insights.
+- Capacity and resource constraints.
+- Strategic themes, OKRs, and regulatory/portfolio commitments.
 
-- **Roadmap Communication**
-  - Create visual roadmaps at different levels (executive, team).
-  - Document assumptions and risks associated with the roadmap.
+**Outputs**
 
-
-### Inputs
-
-- **Business case** and feasibility study results.
-- **User and market research** insights.
-- **Problem definitions** and opportunity backlog.
-- Capacity and **resource constraints**.
-- **Strategic themes and OKRs**.
-
-
-### Outputs
-
-- **Product Vision Statement**
-  - A concise articulation of what the product aims to be and for whom.
-
-- **Strategic Themes and Objectives**
-  - The pillars that guide trade-offs and prioritization.
-
+- **Product Vision & Strategy Statement**
+  - concise articulation of what you are building and why.
+- **Strategic Themes & Objectives**
+  - pillars and outcome goals that guide choices.
 - **Roadmap Artifacts**
-  - High-level roadmap (quarters/years).
-  - Near-term roadmap (epics and features with tentative timelines).
-  - MVP definition and subsequent releases.
+  - multi‑horizon roadmap,
+  - near‑term committed view,
+  - MVP and phased rollout plan.
+- **Alignment & Decision Records**
+  - agreements (and disagreements) documented,
+  - assumptions and risks attached to the roadmap.
 
-- **Alignment & Sign-Off**
-  - Agreement from key stakeholders on direction and priorities.
+### Roles Responsible (Summary)
 
-
-### Roles Responsible
+> Detailed in `13-roles-and-positions.md`.
 
 - **Primary**
-  - Product Manager / Product Director
-  - Head of Product or Portfolio Manager
-
+  - Product Managers / Product Directors,
+  - Heads of Product / Portfolio Managers.
 - **Supporting**
-  - Engineering leadership
-  - Business and operations leaders
-  - Architecture and platform teams
-  - Compliance / Risk (for regulated features)
+  - Engineering leadership,
+  - Business and operations leaders,
+  - Architecture and platform teams,
+  - Risk / Compliance (for regulated products),
+  - Finance / Strategy for portfolio and investment alignment.
 
+### Example Scenario (Digital SME Lending)
 
-### Tools Commonly Used
+> More in `20-case-studies.md`.
 
-- Product roadmap tools: Aha!, Productboard, Jira Product Discovery.
-- Task and issue tracking: Jira, Azure DevOps.
-- Collaboration: Confluence, Notion.
-- Presentation: Slides, PowerPoint for exec reviews.
+For a digital SME lending initiative, this phase would:
 
+- define a multi‑year strategy:
+  - e.g., “phased expansion from existing SMEs in one country to multi‑country, multi‑product offering.”
+- set themes and goals:
+  - speed, transparency, risk management, operations efficiency.
+- sequence work:
+  - MVP → enhanced experience → new risk engine → regional expansion.
+- integrate:
+  - regulatory deadlines,
+  - platform modernization timelines,
+  - and capacity constraints across squads.
 
-### Example Scenario
+The roadmap:
 
-For the **digital SME lending** initiative:
-
-- Vision: “Provide SMEs with a simple, transparent, and fast digital credit experience that supports business growth.”
-- Strategic pillars:
-  - **Speed**: near real-time decisions.
-  - **Transparency**: clear status and next steps.
-  - **Risk management**: robust underwriting and compliance.
-
-Roadmap:
-
-- **MVP (Q3)**
-  - Digital application intake and document upload.
-  - Basic application tracking.
-  - Integration with existing underwriting engine.
-
-- **Phase 2 (Q4)**
-  - Advanced status dashboard.
-  - Improved KYC automation.
-  - Internal tools for credit officers.
-
-- **Phase 3 (next year)**
-  - New risk engine.
-  - Expansion into additional product types and geographies.
-
-Dependencies:
-
-- Underwriting engine team must deliver new APIs.
-- Security team must approve new cloud provider region.
-- Training for credit officers and support staff.
-
-This roadmap is communicated across business lines, technology, and operations, and is updated quarterly.
-
-
-### Best Practices
-
-- **Connect roadmap to strategy and metrics**: Each epic should map to objectives.
-- **Timebox planning granularity**: Be specific for the near term, loosely defined for long term.
-- **Make dependencies explicit**: Highlight cross-team links and critical paths.
-- **Create multiple roadmap views**: Executive, product, and team-level lenses.
-- **Review and adjust regularly**: Treat roadmap as a living artifact, not a one-time plan.
-- **Involve engineering** in prioritization to realistically assess effort and risk.
-
-
-### Common Mistakes
-
-- **Overcommitting**: Roadmaps that promise too much given realistic capacity.
-- **Feature factory mindset**: Roadmaps listing features without clear outcomes or rationale.
-- **Ignoring technical debt and enablers**: Not allocating capacity for foundational work.
-- **Opaque roadmaps**: No transparency about prioritization rationale or trade-offs.
-- **Static roadmaps**: Not revisiting in the face of new data or conditions.
-
-A strong product strategy and roadmap provide **direction and focus**, enabling teams to move fast while staying aligned.
+- becomes the **primary alignment tool** for all teams touching SME lending.
 
