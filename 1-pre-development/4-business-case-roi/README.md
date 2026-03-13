@@ -1,150 +1,238 @@
 ## Business Case & ROI Analysis
 
-### Overview
+### What This Folder Is
 
-**Business Case & ROI Analysis** evaluates whether an initiative is **financially and strategically justified**. In enterprises and banks, this phase determines **investment priority**, helps secure funding, and sets expectations for measurable outcomes.
+This folder is a **complete handbook** for the *Business Case & ROI Analysis* phase.
 
-It connects user and market insights to **financial models, risk assessments, and alignment with corporate strategy**.
+It explains how to go from:
+
+- validated **problems and research insights**  
+to:
+- a **credible, transparent, and decision‑ready business case** that:
+  - estimates benefits and costs,
+  - quantifies risk and uncertainty,
+  - compares options,
+  - and supports go/no‑go and prioritization choices.
+
+If you are a **beginner**, start with `01-concepts.md` and proceed in order.  
+If you are **experienced**, use the table of contents below to jump directly to specific topics.
 
 
-### Objectives
+### Quick Table of Contents (Click to Navigate)
 
-- **Quantify expected benefits** (revenue, cost savings, risk reduction).
-- **Estimate costs and investments** (development, operations, change management).
-- **Calculate ROI, NPV, and payback period** where appropriate.
-- **Evaluate risks and sensitivities** in the financial model.
-- **Provide a clear go/no-go recommendation** or prioritization input.
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Financial Metrics & Formulas](./04-financial-metrics-and-formulas.md)
+  - [05 – Benefit Types & Estimation](./05-benefit-types-and-estimation.md)
+  - [06 – Cost Types & Estimation](./06-cost-types-and-estimation.md)
+  - [07 – Risk, Uncertainty & Sensitivities](./07-risk-uncertainty-and-sensitivities.md)
 
-This phase often results in a formal business case or investment proposal reviewed by senior leadership.
+- **Execution Enablers**
+  - [08 – Tools](./08-tools.md)
+  - [09 – Data Sources](./09-data-sources.md)
+  - [10 – Documents & Artifacts](./10-documents-and-artifacts.md)
+
+- **People & Skills**
+  - [11 – Roles and Positions](./11-roles-and-positions.md)
+  - [12 – Skills](./12-skills.md)
+  - [13 – Job Market](./13-job-market.md)
+  - [14 – Salary Benchmarks](./14-salary-benchmarks.md)
+
+- **Context & Patterns**
+  - [15 – Contexts and Domains](./15-contexts-and-domains.md)
+  - [16 – Startup vs Enterprise](./16-startup-vs-enterprise.md)
+  - [17 – Option & Scenario Comparison](./17-option-and-scenario-comparison.md)
+
+- **Learning from Examples**
+  - [18 – Case Studies](./18-case-studies.md)
+  - [19 – Real-World Examples](./19-real-world-examples.md)
+
+- **Quality & Risk Management**
+  - [20 – Best Practices](./20-best-practices.md)
+  - [21 – Common Mistakes](./21-common-mistakes.md)
+  - [22 – Governance & Approval Processes](./22-governance-and-approval-processes.md)
+
+- **Assets for Execution**
+  - [23 – Templates](./23-templates.md)
+  - [24 – Checklists](./24-checklists.md)
+  - [25 – Glossary](./25-glossary.md)
 
 
-### Activities
+### Overview (Beginner Friendly)
+
+**Business Case & ROI Analysis** evaluates whether an initiative is **financially and strategically justified**. In enterprises and banks, this phase determines:
+
+- whether an initiative should be funded at all,
+- at what scale and in what phasing,
+- how it should be prioritized against other competing investments.
+
+It connects:
+
+- user & market insights (from `3-user-market-research/`),
+- problem definitions (from `2-problem-definition/`),
+- and early solution concepts,
+
+to **financial models, risk assessments, and portfolio decisions**.
+
+
+### Objectives (Summary)
+
+> Full details in `02-objectives.md`.
+
+- **Quantify expected benefits**:
+  - revenue,
+  - cost savings,
+  - risk reduction,
+  - and important intangibles.
+- **Estimate costs and investments**:
+  - build and run,
+  - change management,
+  - supporting capabilities.
+- **Calculate financial metrics**:
+  - ROI, NPV, IRR, payback period, where appropriate.
+- **Analyze risks and sensitivities**:
+  - show how outcomes change with adoption, conversion, delays, etc.
+- **Provide a clear recommendation**:
+  - go/no‑go,
+  - scale and phasing,
+  - relative priority in the portfolio.
+
+
+### Activities (Summary)
+
+> Detailed step‑by‑step in `03-workflow.md`.
 
 - **Benefit Estimation**
-  - Revenue impact (new sales, upsell, cross-sell).
-  - Cost impact (automation, reduced errors, process efficiency).
-  - Risk impact (lower fraud, better compliance, fewer fines).
-  - Intangible benefits (brand, customer satisfaction) annotated where harder to quantify.
+  - Revenue impact (new sales, upsell, cross‑sell).
+  - Cost impact (automation, reduced errors, efficiency).
+  - Risk impact (fraud, compliance, loss reduction).
+  - Strategic / intangible benefits (brand, customer experience).
 
 - **Cost Estimation**
-  - One-time development costs (engineering, design, testing).
-  - Infrastructure and licensing costs (cloud, SaaS tools).
-  - Operational costs (support, maintenance, monitoring).
-  - Change management and training costs.
+  - One‑time investments (engineering, design, integration, change).
+  - Ongoing costs (support, infrastructure, licensing, monitoring).
 
 - **Financial Modeling**
-  - Build multi-year cash flow models.
-  - Calculate ROI, IRR, NPV, and payback period.
-  - Run **scenario and sensitivity analyses** (e.g., best case, base case, worst case).
+  - Build multi‑year cash‑flow models.
+  - Apply discount rates and capital costs as needed.
+  - Run **scenarios** (e.g., conservative, base, aggressive).
+  - Perform **sensitivity analysis** on key drivers (e.g., adoption, conversion, unit economics).
 
 - **Risk & Dependency Assessment**
-  - Identify major risks (delivery, adoption, regulatory, vendor).
-  - Evaluate impact and likelihood.
-  - Propose mitigations and risk owners.
+  - Identify delivery, adoption, regulatory, vendor, and operational risks.
+  - Qualitatively and, where possible, quantitatively evaluate impact.
 
 - **Portfolio Fit Analysis**
-  - Compare initiative against other opportunities in the portfolio.
-  - Ensure alignment with strategic objectives and capacity.
+  - Compare initiative to others on:
+    - strategic fit,
+    - value vs risk,
+    - capacity and timing.
 
-- **Business Case Document & Review**
-  - Summarize rationale, figures, and recommendations.
-  - Conduct review with finance, strategy, and leadership committees.
-
-
-### Inputs
-
-- **Problem statement** and **user research** insights.
-- Initial **solution concepts** or options.
-- Rough **effort estimates** from engineering and operations.
-- Market sizing and **competitive analysis**.
-- Historical data (e.g., baseline metrics, past project performance).
+- **Business Case Document & Reviews**
+  - Summarize rationale, assumptions, numbers, and recommendations.
+  - Present to finance, strategy, portfolio, and investment committees.
 
 
-### Outputs
+### Inputs and Outputs (Summary)
 
-- **Business Case Document**, including:
-  - Executive summary.
-  - Strategic fit and objectives.
-  - Benefit and cost breakdown.
-  - Financial metrics (ROI, NPV, payback).
-  - Risks, dependencies, and mitigations.
-  - Recommendation (e.g., proceed, pivot, delay).
+> Detailed in `09-data-sources.md` and `10-documents-and-artifacts.md`.
 
-- **Investment Decision**
-  - Funding approval or rejection.
-  - Prioritization against other initiatives.
+**Inputs**
 
-- **High-Level Targets**
-  - KPIs and financial metrics to track post-launch.
+- Formal **problem statements**.
+- **Research insights** on users, markets, and competition.
+- **Initial solution options** and scope.
+- **Effort estimates** from engineering, operations, and change teams.
+- Historical data:
+  - baseline metrics,
+  - unit costs,
+  - past initiative performance.
+
+**Outputs**
+
+- **Business Case Document**
+  - executive summary,
+  - strategic fit,
+  - benefit & cost breakdown,
+  - financial metrics,
+  - risks and sensitivities,
+  - recommendations.
+
+- **Investment Decision & Prioritization**
+  - funding decision (approve / adjust / reject),
+  - placement in portfolio/backlog.
+
+- **High‑Level Targets**
+  - KPIs and financial metrics to be tracked post‑launch.
 
 
-### Roles Responsible
+### Roles Responsible (Summary)
+
+> Deep dive in `11-roles-and-positions.md` and `12-skills.md`.
 
 - **Primary**
-  - Product Manager / Product Owner
-  - Business Owner / P&L Owner
-  - Finance Partner
+  - Product Manager / Product Owner,
+  - Business Owner / P&L Owner,
+  - Finance Partner.
 
 - **Supporting**
-  - Data Analyst
-  - Engineering Manager (for cost estimation)
-  - Strategy / Portfolio Management
-  - Risk / Compliance (for risk quantification)
+  - Data Analyst / BI,
+  - Engineering Manager / Architect (for cost & feasibility),
+  - Strategy / Portfolio Management,
+  - Risk / Compliance (for risk quantification and constraints).
 
 
-### Tools Commonly Used
+### Tools Commonly Used (Summary)
 
-- Financial modeling in **Excel or Google Sheets**.
-- Portfolio tools (e.g., Planview, internal tools).
-- Analytics platforms for **historical data**.
-- Documentation (Confluence, Word, Google Docs).
-- Presentation tools for executive readouts (PowerPoint, Slides).
+> Details in `08-tools.md`.
 
-
-### Example Scenario
-
-For the **digital SME lending** project:
-
-- **Benefits**:
-  - Increased loan volume by 15–20%.
-  - Higher cross-sell of treasury products.
-  - Lower processing cost per loan due to automation.
-  - Reduced default risk due to better data and analytics.
-
-- **Costs**:
-  - Engineering and design for 12–18 months.
-  - Integration with credit bureaus and KYC providers.
-  - Cloud infrastructure and security solutions.
-  - Training for relationship managers and support teams.
-
-Financial modeling indicates:
-
-- Payback period of ~2.5 years.
-- Positive NPV at the chosen discount rate.
-- Sensitivity shows ROI is highly sensitive to **adoption rate** and **approval conversion**.
-
-The business case is presented to an investment committee, which approves funding with conditions:
-
-- Phase-gated funding with specific **milestones and metrics**.
-- Early MVP must demonstrate at least 10% increase in application completion rate.
+- Financial modeling:
+  - Excel, Sheets, internal financial tools.
+- Portfolio tools:
+  - Planview, internal portfolio & roadmap systems.
+- Analytics:
+  - for baselines and projections.
+- Documentation & presentations:
+  - Confluence, Word, PowerPoint, Slides.
 
 
-### Best Practices
+### Example Scenario (Digital SME Lending)
 
-- **Use realistic assumptions**: Validate with data where possible; document sources.
-- **Include multiple scenarios**: Highlight how results change under different assumptions.
-- **Align metrics with product analytics**: Ensure post-launch tracking can validate the business case.
-- **Collaborate with finance early**: Avoid surprises during approval.
-- **Capture non-financial benefits**: Even if hard to quantify, document qualitatively.
-- **Iterate after discovery and pilot**: Update business case with new data.
+> Full, worked examples in `18-case-studies.md`.
+
+For a **digital SME lending** initiative:
+
+- Benefits:
+  - increased loan volume,
+  - improved conversion,
+  - lower processing cost per loan,
+  - potential risk reduction via better data.
+- Costs:
+  - multi‑year engineering and integration effort,
+  - infrastructure and third‑party services,
+  - change management.
+
+The business case models:
+
+- multi‑year cash flows across scenarios,
+- payback period,
+- NPV and IRR at the bank’s hurdle rate,
+- sensitivity to adoption and approval conversion.
+
+An investment committee uses the case to:
+
+- approve phased funding,
+- define stage‑gate metrics for continuation,
+- prioritize it relative to other SME initiatives.
 
 
-### Common Mistakes
+### Best Practices & Common Mistakes (Where to Look)
 
-- **Over-optimistic projections** with no link to real data or benchmarks.
-- **Ignoring ongoing operational costs** (e.g., support, maintenance, compliance overhead).
-- **Not updating the business case** after major scope or environment changes.
-- **Treating business case as political tool**, inflating benefits to get approval.
-- **No connection to post-launch measurement**, making it hard to evaluate success.
+- Best practices: `20-best-practices.md`.
+- Pitfalls to avoid: `21-common-mistakes.md`.
+- Governance and formal approval flows: `22-governance-and-approval-processes.md`.
 
-A trustworthy business case builds confidence and ensures that **capital is allocated to the highest-value initiatives**.
+A trustworthy business case **builds confidence** that capital is being allocated to the **highest‑value, best‑understood initiatives**.
+
