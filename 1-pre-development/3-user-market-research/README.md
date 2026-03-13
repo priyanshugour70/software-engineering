@@ -1,151 +1,243 @@
 ## User & Market Research
 
-### Overview
+### What This Folder Is
 
-**User & Market Research** translates problem statements into **deep understanding of users, workflows, behaviors, and competitive context**. In enterprises, this often combines **qualitative research** (interviews, usability tests) and **quantitative analysis** (usage data, funnels, market sizing).
+This folder is a **comprehensive handbook** for the *User & Market Research* phase.
 
-Research reduces risk by validating assumptions before significant engineering investment.
+It explains how to go from:
+
+- well‑defined **problems** (from `2-problem-definition/`)  
+to:
+- **rich, trustworthy evidence** about:
+  - users and stakeholders,
+  - their behaviors, needs, and mental models,
+  - end‑to‑end journeys and pain points,
+  - competitors and market context.
+
+If you are a **beginner**, start with `01-concepts.md` and follow in order.  
+If you are **experienced**, use the table of contents below to jump to specific topics.
 
 
-### Objectives
+### Quick Table of Contents (Click to Navigate)
+
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Research Questions & Hypotheses](./04-research-questions-and-hypotheses.md)
+  - [05 – Methods Overview](./05-methods-overview.md)
+  - [06 – Recruitment & Sampling](./06-recruitment-and-sampling.md)
+  - [07 – Data Sources](./07-data-sources.md)
+
+- **Execution Enablers**
+  - [08 – Tools](./08-tools.md)
+  - [09 – Metrics & Research Quality](./09-metrics-and-quality.md)
+  - [10 – Documents & Artifacts](./10-documents-and-artifacts.md)
+
+- **People & Skills**
+  - [11 – Roles and Positions](./11-roles-and-positions.md)
+  - [12 – Skills](./12-skills.md)
+  - [13 – Job Market](./13-job-market.md)
+  - [14 – Salary Benchmarks](./14-salary-benchmarks.md)
+
+- **Context & Patterns**
+  - [15 – Contexts and Domains](./15-contexts-and-domains.md)
+  - [16 – B2B vs B2C Research](./16-b2b-vs-b2c-research.md)
+  - [17 – Startup vs Enterprise](./17-startup-vs-enterprise.md)
+
+- **Learning from Examples**
+  - [18 – Case Studies](./18-case-studies.md)
+  - [19 – Real-World Examples](./19-real-world-examples.md)
+
+- **Quality & Risk Management**
+  - [20 – Best Practices](./20-best-practices.md)
+  - [21 – Common Mistakes](./21-common-mistakes.md)
+  - [22 – Risks, Ethics & Compliance](./22-risks-ethics-and-compliance.md)
+
+- **Assets for Execution**
+  - [23 – Templates](./23-templates.md)
+  - [24 – Checklists](./24-checklists.md)
+  - [25 – Glossary](./25-glossary.md)
+
+
+### Overview (Beginner Friendly)
+
+**User & Market Research** translates problem statements into **deep understanding of users, workflows, behaviors, and competitive context**. In enterprises, this typically combines:
+
+- **Qualitative research**
+  - interviews,
+  - contextual inquiries and shadowing,
+  - diary studies,
+  - usability tests,
+  - workshops.
+- **Quantitative analysis**
+  - product analytics and funnels,
+  - surveys,
+  - segmentation,
+  - market sizing and competitive data.
+
+Research reduces risk by:
+
+- **validating or refuting assumptions** before large investments,
+- discovering **hidden needs and constraints**,
+- providing **evidence** that shapes strategy, design, and business cases.
+
+
+### Objectives (Summary)
+
+> Full detail in `02-objectives.md`.
 
 - **Validate and refine the problem** with real users and stakeholders.
-- **Understand user behaviors, needs, and mental models**.
-- **Map current journeys** and identify pain points and opportunities.
-- **Analyze competitive offerings and market positioning**.
-- **Provide evidence-backed insights** to inform product strategy and requirements.
+- **Understand user behaviors, needs, and mental models** in their real context.
+- **Map current journeys** and identify pain points, drop‑offs, and backstage issues.
+- **Analyze competitive offerings and market positioning** to understand table‑stakes vs differentiators.
+- **Produce actionable insights** that inform product strategy, requirements, and success metrics.
 
-This phase grounds the initiative in **real-world user and market evidence**.
+This phase grounds the initiative in **real‑world user and market evidence**, not just assumptions.
 
 
-### Activities
+### Activities (Summary)
+
+> Step‑by‑step process in `03-workflow.md`, method details in `05-methods-overview.md`.
 
 - **Research Planning**
   - Define research goals and key questions.
-  - Identify target participant profiles (personas).
-  - Select methods (interviews, surveys, ethnographic observation, diary studies, data analysis).
+  - Clarify hypotheses and assumptions to test.
+  - Identify target participant profiles / segments.
+  - Choose methods and design the study.
 
 - **Qualitative Research**
   - Conduct user and stakeholder interviews.
-  - Run contextual inquiries or shadowing sessions.
-  - Facilitate workshops (e.g., journey mapping, service blueprints).
+  - Run contextual inquiries and shadowing sessions.
+  - Facilitate workshops and journey mapping.
+  - Perform usability tests on existing or prototype flows.
 
 - **Quantitative Research**
-  - Analyze product telemetry and funnel metrics.
-  - Segment users by behavior, value, or risk.
-  - Run surveys at scale to validate hypotheses.
+  - Analyze product telemetry, funnels, and cohorts.
+  - Run surveys for confirmation and sizing.
+  - Segment users by behavior, value, lifecycle stage, or risk.
 
-- **Competitive Analysis**
-  - Benchmark competitors’ features, UX flows, pricing, and value propositions.
-  - Evaluate differentiators and table-stakes capabilities.
+- **Competitive & Market Analysis**
+  - Review competitor products, UX, messaging, and pricing.
+  - Position your offering in the broader market landscape.
 
 - **Synthesis**
-  - Create **personas**, **user journeys**, and **experience maps**.
-  - Extract themes, patterns, and critical insights.
-  - Identify opportunities and unmet needs.
+  - Create personas, user journeys, service blueprints, and insight maps.
+  - Cluster findings into themes and patterns.
+  - Identify opportunity areas and risks.
 
-- **Research Readout**
-  - Present findings to stakeholders.
-  - Link insights back to problem statement and opportunities.
+- **Research Readout & Integration**
+  - Share findings and implications with:
+    - product,
+    - design,
+    - engineering,
+    - business,
+    - risk/compliance.
+  - Translate insights into:
+    - updated problem statements,
+    - requirements,
+    - strategy and roadmaps.
 
 
-### Inputs
+### Inputs and Outputs (Summary)
+
+> More detail in `07-data-sources.md` and `10-documents-and-artifacts.md`.
+
+**Inputs**
 
 - Formal **Problem Statements** and scope.
-- Opportunity briefs and **strategic context**.
-- Access to **existing usage data**, support tickets, and process documents.
-- Existing research reports (if any).
+- Opportunity briefs and **strategic goals**.
+- Access to:
+  - existing usage data,
+  - support tickets,
+  - process documents,
+  - prior research.
 
-
-### Outputs
+**Outputs**
 
 - **Research Plan**
-  - Methods, participants, timelines, and responsibilities.
+  - what you will study, why, how, with whom, and when.
 
-- **User Personas**
-  - Archetypes representing major user segments, their goals and behaviors.
+- **Personas & Segment Profiles**
+  - clear, evidence‑based archetypes (goals, behaviors, constraints).
 
 - **User Journeys & Service Blueprints**
-  - Current-state maps of key flows with pain points and emotions.
+  - current‑state flows with touchpoints, emotions, backstage processes, and pain points.
 
-- **Competitive and Market Analysis**
-  - Summary of competitor capabilities, strengths, and gaps.
+- **Competitive & Market Analysis**
+  - competitor mapping, feature/UX comparisons, strategic positioning.
 
-- **Insight Deck / Report**
-  - Key findings, quotes, data summaries, and implications.
-  - Recommendations and open questions.
+- **Insight Deck / Research Report**
+  - key findings, supporting data/quotes,
+  - implications for product, design, risk, and operations,
+  - recommended focus areas and open questions.
 
-These deliverables feed into **Business Case & ROI**, **Product Strategy & Roadmap**, and **Requirements Engineering**.
+These deliverables feed into:
+
+- **Business Case & ROI**,
+- **Product Strategy & Roadmap**,
+- **Requirements Engineering**.
 
 
-### Roles Responsible
+### Roles Responsible (Summary)
+
+> Detailed in `11-roles-and-positions.md` and `12-skills.md`.
 
 - **Primary**
-  - UX Researcher / Product Designer
-  - Product Manager
+  - UX Researcher / Design Researcher / Service Designer,
+  - Product Manager.
 
 - **Supporting**
-  - Data Analyst
-  - Business Stakeholders
-  - Customer Support / Sales
-  - Legal & Compliance (for research with customers in regulated sectors)
+  - Data Analyst / Data Scientist,
+  - Designers,
+  - Business Stakeholders,
+  - Customer Support / Sales,
+  - Legal & Compliance (for research involving real customers, especially in regulated sectors).
 
 
-### Tools Commonly Used
+### Tools Commonly Used (Summary)
 
-- **Planning & Documentation**
+> Deep dive in `08-tools.md`.
+
+- Planning & documentation:
   - Confluence, Notion, Google Docs.
-- **User Research**
-  - UserTesting, Lookback, Dovetail, survey tools.
-- **Analytics**
-  - Amplitude, Mixpanel, Google Analytics, internal product analytics.
-- **Design & Journey Mapping**
+- Interviewing & usability testing:
+  - video‑conferencing, session recording (where allowed), analysis tools.
+- Survey tools:
+  - enterprise survey platforms, in‑product survey tools.
+- Analytics:
+  - Amplitude, Mixpanel, internal BI.
+- Design & mapping:
   - Figma, Miro, Lucidchart, service design tools.
 
 
-### Example Scenario
+### Example Scenario (Digital SME Lending)
+
+> Additional detail and variations in `18-case-studies.md`.
 
 In the **digital SME lending** initiative:
 
-- The research team interviews 15 SME owners and 10 relationship managers.
+- The team:
+  - interviews SME owners and relationship managers,
+  - reviews product analytics and support data,
+  - analyzes competitor lending flows.
 - They discover:
-  - Owners are uncomfortable uploading sensitive documents without clear security assurances.
-  - Many SMEs rely on accountants, who influence their choice of banking products.
-  - Competitors provide simple dashboards showing application status and next steps.
+  - SMEs care deeply about **predictability and transparency**,
+  - many rely on **accountants** as key influencers,
+  - competitors offer **clear status tracking** and **step‑by‑step guidance**.
 
-They map a **current-state journey** that shows:
+Based on this, the team:
 
-1. Customer visits branch, collects paperwork list.
-2. Customer gathers documents over several days.
-3. Multiple branch visits due to missing items.
-4. Manual data capture leads to delays and errors.
-
-Key insights:
-
-- SMEs desire **predictability and transparency** more than speed alone.
-- Providing **clear document checklists** and **status tracking** could significantly reduce anxiety and drop-off.
-
-These findings refine requirements later (e.g., must-have status tracking, clear security messaging, accountant access).
+- refines problem statements from `2-problem-definition/`,
+- defines must‑have requirements (e.g., document checklists, security messaging, accountant access),
+- and provides evidence to support investment decisions in later phases.
 
 
-### Best Practices
+### Best Practices, Mistakes, and Risks
 
-- **Tie research questions to decisions**: Every research activity should inform a decision or assumption.
-- **Use mixed methods**: Combine qualitative depth with quantitative scale.
-- **Involve the team**: Let engineers and stakeholders observe sessions to build empathy.
-- **Document raw data and synthesized insights**: Enable re-use of findings later.
-- **Account for bias and limitations**: Note sample sizes and representativeness.
-- **Respect privacy and ethics**: Use consent forms, anonymize data, and follow policies.
+- Best practices: `20-best-practices.md`.
+- Common mistakes: `21-common-mistakes.md`.
+- Research ethics, privacy, and regulatory issues: `22-risks-ethics-and-compliance.md`.
 
-In banking, ensure research with customers adheres to **data privacy** and **regulatory** standards.
+Good research is **decision‑driven, ethically sound, and well‑communicated**—it changes what the team builds and why, not just what they think they know.
 
-
-### Common Mistakes
-
-- **Research that is too generic** and not tied to specific decisions.
-- **Confirmatory bias**: Only looking for evidence that supports pre-decided solutions.
-- **Ignoring operational users** (e.g., back-office staff, call center agents).
-- **Not updating documents** when new research becomes available.
-- **No clear handoff**: Insights not translated into roadmap or requirements.
-
-Effective research provides a **shared understanding of users and context**, not just a stack of reports.
