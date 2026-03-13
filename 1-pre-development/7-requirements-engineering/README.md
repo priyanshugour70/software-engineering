@@ -1,122 +1,222 @@
 ## Requirements Engineering (PRD / User Stories)
 
-### Overview
+### What This Folder Is
 
-**Requirements Engineering** turns strategy, research, and roadmap into **detailed, testable specifications** that guide design, development, and testing. In enterprises, this phase ensures that multiple teams can work in parallel with **clear, consistent understanding** of what needs to be built and why.
+This folder is a **complete handbook** for the *Requirements Engineering* phase.
 
-Artifacts often include **Product Requirements Documents (PRDs)**, **user stories**, and **acceptance criteria**, alongside non-functional requirements.
+It explains how to turn:
 
+- strategy, research, and product roadmaps  
+into:
+- **clear, testable, traceable requirements** that guide:
+  - design,
+  - development,
+  - testing,
+  - and operations.
 
-### Objectives
+If you are a **beginner**, start with `01-concepts.md` and read in order.  
+If you are **experienced**, use the table of contents below to jump to specific topics.
 
-- **Specify functional requirements** in a user-centric and testable way.
-- **Capture non-functional requirements (NFRs)** such as performance, security, and availability.
-- **Provide shared understanding** across product, design, engineering, QA, and stakeholders.
-- **Enable traceability** from business objectives to implementation and tests.
-- **Minimize ambiguity** and misinterpretation.
+---
 
-Requirements Engineering is iterative and evolves throughout the project as new information emerges.
+### Quick Table of Contents (Click to Navigate)
 
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Scope & Slicing](./04-scope-and-slicing.md)
+  - [05 – PRD Structure & Authoring](./05-prd-structure-and-authoring.md)
+  - [06 – User Stories & Acceptance Criteria](./06-user-stories-and-acceptance-criteria.md)
+  - [07 – Non‑Functional Requirements (NFRs)](./07-non-functional-requirements.md)
+  - [08 – Traceability & Documentation](./08-traceability-and-documentation.md)
+- **Execution Enablers**
+  - [09 – Tools](./09-tools.md)
+  - [10 – Documents & Artifacts](./10-documents-and-artifacts.md)
+- **People & Skills**
+  - [11 – Roles and Positions](./11-roles-and-positions.md)
+  - [12 – Skills](./12-skills.md)
+  - [13 – Job Market](./13-job-market.md)
+  - [14 – Salary Benchmarks](./14-salary-benchmarks.md)
+- **Context & Collaboration**
+  - [15 – Contexts and Domains](./15-contexts-and-domains.md)
+  - [16 – Startup vs Enterprise](./16-startup-vs-enterprise.md)
+  - [17 – Regulated vs Unregulated Products](./17-regulated-vs-unregulated-products.md)
+  - [18 – Collaboration with Design & Architecture](./18-collaboration-with-design-and-architecture.md)
+  - [19 – Collaboration with Testing & QA](./19-collaboration-with-testing-and-qa.md)
+- **Learning from Practice**
+  - [20 – Case Studies](./20-case-studies.md)
+  - [21 – Real‑World Examples](./21-real-world-examples.md)
+- **Quality & Governance**
+  - [22 – Best Practices](./22-best-practices.md)
+  - [23 – Common Mistakes](./23-common-mistakes.md)
+  - [24 – Governance & Change Control](./24-governance-and-change-control.md)
+- **Assets for Execution**
+  - [25 – Templates](./25-templates.md)
+  - [26 – Checklists](./26-checklists.md)
+  - [27 – Glossary](./27-glossary.md)
 
-### Activities
+---
 
-- **Define Scope for a Release / Increment**
-  - Select epics and features from the roadmap.
-  - Clarify which personas and flows are in scope.
+### Overview (Beginner Friendly)
 
-- **PRD Authoring**
-  - Draft or update PRD with:
-    - Background and context.
-    - Goals and non-goals.
-    - User personas and journeys.
-    - Functional requirements.
-    - Non-functional requirements.
-    - Dependencies, risks, and open questions.
+**Requirements Engineering** turns:
 
-- **User Story Creation**
-  - Break features into user stories (e.g., “As an SME owner, I want to…”).
-  - Write **acceptance criteria** (Given/When/Then) suitable for testing.
-  - Link stories to epics and PRD sections.
+- product strategy and roadmaps (`6-product-strategy-roadmap`),
+- research outputs (personas, journeys, insights),
+- feasibility and architecture directions,
+- business cases and success metrics,
 
-- **NFR Definition**
-  - Define performance targets (latency, throughput).
-  - Define availability and resilience targets.
-  - Detail security and compliance requirements (e.g., encryption, audit logging).
-  - Include operational readiness (monitoring, alerting, runbooks).
+into **concrete, testable requirements**:
 
-- **Refinement and Grooming Sessions**
-  - Review requirements with engineering and design.
-  - Estimate complexity and surface technical constraints.
-  - Split or clarify stories as needed.
+- **what** should be built,
+- **for whom**,
+- **under which conditions**,
+- **how we will know** it works.
 
-- **Traceability and Documentation**
-  - Link requirements to business objectives (OKRs) and test cases.
-  - Maintain versioning and change history.
+It covers:
 
+- **functional requirements** (behaviour / features),
+- **non‑functional requirements (NFRs)** (performance, security, availability, operability),
+- **traceability** back to:
+  - objectives,
+  - risks,
+  - and tests.
 
-### Inputs
+This phase is:
 
-- **Product roadmap** and release scope.
-- **Research outputs**: personas, journeys, insights.
-- **Feasibility and architecture directions**.
-- **Business case** and success metrics.
-- Regulatory and compliance **constraints**.
+- iterative (requirements evolve as we learn),
+- collaborative (product, design, engineering, QA, risk, operations),
+- critical for:
+  - avoiding ambiguity,
+  - reducing rework,
+  - and ensuring quality.
 
+---
 
-### Outputs
+### Objectives (Summary)
 
-- **Product Requirements Document (PRD)**
-- **User Stories & Acceptance Criteria** in an issue tracker.
-- **Non-Functional Requirements specification**.
-- **Traceability matrix** (requirements to objectives/tests, if required in regulated environments).
+> Detailed breakdown in `02-objectives.md`.
 
-These outputs drive **Architecture & Governance**, **Design**, and **Development**.
+- **Specify functional requirements** in a user‑centric, testable way.
+- **Capture non‑functional requirements** for performance, security, availability, resilience, and operability.
+- **Provide a shared understanding** across product, design, engineering, QA, and stakeholders.
+- **Enable traceability** from business objectives and regulatory constraints to implementation and tests.
+- **Minimize ambiguity and misinterpretation**, especially across multiple teams and vendors.
 
+---
 
-### Example PRD Structure
+### Activities (Summary)
 
-Below is a practical PRD outline you can adapt:
+> Step‑by‑step in `03-workflow.md`.
 
-```markdown
-# Product Requirements Document – Digital SME Lending v1
+- **Define Release / Increment Scope**
+  - select epics and features from the roadmap,
+  - clarify which personas, journeys, and edge cases are in scope.
+- **Author & Evolve PRDs**
+  - background, goals, and non‑goals,
+  - personas and journeys,
+  - functional and non‑functional requirements,
+  - dependencies, risks, and open questions.
+- **Create User Stories & Acceptance Criteria**
+  - “As a \<persona>, I want \<goal> so that \<benefit>,”
+  - Given/When/Then acceptance criteria,
+  - link stories to epics and PRD sections.
+- **Define and Validate NFRs**
+  - performance and capacity targets,
+  - availability and resilience,
+  - security, privacy, and compliance requirements,
+  - operability (monitoring, alerting, runbooks).
+- **Refinement / Grooming**
+  - walkthroughs with engineering, QA, design, risk,
+  - estimation and feasibility checks,
+  - splitting and clarifying stories.
+- **Traceability & Documentation**
+  - link requirements to:
+    - objectives and OKRs,
+    - risks and controls,
+    - test cases and test results,
+  - maintain versioning and change history.
 
-## 1. Document Metadata
-- Owner: Jane Doe (Product Manager)
-- Version: 0.9
-- Status: Draft
-- Reviewers: Architecture, Risk, Operations
-- Last Updated: 2026-03-13
+---
 
-## 2. Executive Summary
-- One-page overview of what we are building and why.
+### Inputs & Outputs (Summary)
 
-## 3. Background & Context
-- Market context, competitive landscape, internal drivers.
+**Inputs**
 
-## 4. Goals & Non-Goals
-- Goals: Reduce time to decision to <2 hours, etc.
-- Non-goals: Replace core banking system, etc.
+- Product strategy and roadmap (`6-product-strategy-roadmap`).
+- Research outputs:
+  - personas,
+  - journeys,
+  - insights (`3-user-market-research`).
+- Business case and success metrics (`4-business-case-roi`).
+- Feasibility and architecture directions (`5-feasibility-study`).
+- Regulatory and compliance constraints.
 
-## 5. Personas & User Journeys
-- SME owner persona, relationship manager, credit officer.
-- Current-state and future-state journeys.
+**Outputs**
 
-## 6. Functional Requirements
-- FR-1: Application intake
-- FR-2: Document upload
-- FR-3: Application tracking, etc.
+- **Product Requirements Documents (PRDs)** – structured, narrative specs.
+- **User Stories & Acceptance Criteria** – in an issue tracker (`Jira`, `Azure DevOps`, etc.).
+- **Non‑Functional Requirements Specifications** – including security and operational aspects.
+- **Traceability Views** – mapping requirements to objectives, risks, and tests (especially in regulated contexts).
 
-## 7. Non-Functional Requirements
-- Performance, availability, security, compliance, observability.
+These outputs feed directly into:
 
-## 8. Dependencies & Assumptions
-- Core banking APIs, KYC provider, etc.
+- **Architecture & Governance**,
+- **Design (UX/UI, service design)**,
+- **Development & Testing**,
+- and **Operational Readiness**.
 
-## 9. Analytics & Success Metrics
-- Application completion rate, time-to-decision, etc.
+---
 
-## 10. Risks & Open Questions
-- Items needing further research or decisions.
+### Roles Responsible (Summary)
 
-## 11. Appendices
-- Sketches, reference documents, glossary.
+> Detailed in `11-roles-and-positions.md`.
+
+- **Primary**
+  - Product Managers / Product Owners,
+  - Business Analysts / Requirements Engineers (where present),
+  - Lead Engineers / Tech Leads (for NFRs and feasibility).
+- **Supporting**
+  - UX / Service Designers,
+  - QA / Test Engineers,
+  - Architecture and security teams,
+  - Risk / Compliance (for regulated products),
+  - Operations / SRE (for operability requirements).
+
+---
+
+### Example PRD Structure (At a Glance)
+
+> Full template and examples in `05-prd-structure-and-authoring.md` and `25-templates.md`.
+
+Typical sections:
+
+- document metadata and ownership,
+- executive summary and context,
+- goals and non‑goals,
+- personas and journeys,
+- functional requirements (FR‑1, FR‑2, …),
+- non‑functional requirements (performance, security, availability, etc.),
+- dependencies and assumptions,
+- analytics and success metrics,
+- risks and open questions,
+- appendices (wireframes, flows, glossary).
+
+---
+
+### How This Phase Connects to Others
+
+- Takes **direction and priorities** from:
+  - `6-product-strategy-roadmap`.
+- Uses **insights and constraints** from:
+  - `1–5` pre‑development modules.
+- Produces **inputs** for:
+  - architecture design,
+  - UX and service design,
+  - implementation planning and testing.
+
+Together with the previous six folders, this one completes the chain from:
+
+- opportunity → strategy → roadmap → **requirements** → delivery.
+
