@@ -1,13 +1,83 @@
 ## Market Opportunity Discovery
 
-### Overview
+### What This Folder Is
 
-**Market Opportunity Discovery** is the phase where organizations **identify and explore potential areas for new products, features, or platform capabilities**. In enterprises and banks, this step is often driven by strategic goals, competitive threats, regulatory changes, or customer feedback.
+This folder is a **mini‑handbook** for the *Market Opportunity Discovery* phase.  
+It is organized into multiple topic files so you can:
 
-The purpose is to generate well-formed **opportunity hypotheses** that are worthy of deeper analysis, not to define solutions yet.
+- Learn the **core concepts** step by step.
+- Understand the **end‑to‑end workflow**.
+- Apply **frameworks, tools, and metrics** in real projects.
+- Use **templates, checklists, and examples** to run the process in your own organization.
+
+If you are a **beginner**, you can start with `01-concepts.md` and read in order.  
+If you are **experienced**, you can jump directly to the topic you need.
 
 
-### Objectives
+### Quick Table of Contents (Click to Navigate)
+
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Frameworks](./04-frameworks.md)
+  - [05 – Research Methods](./05-research-methods.md)
+  - [06 – Data Sources](./06-data-sources.md)
+  - [07 – Opportunity Evaluation](./07-opportunity-evaluation.md)
+
+- **Execution Enablers**
+  - [08 – Tools](./08-tools.md)
+  - [09 – Metrics](./09-metrics.md)
+  - [10 – Documents](./10-documents.md)
+
+- **People & Careers**
+  - [11 – Roles and Positions](./11-roles-and-positions.md)
+  - [12 – Skills](./12-skills.md)
+  - [13 – Job Market](./13-job-market.md)
+  - [14 – Salary Benchmarks](./14-salary-benchmarks.md)
+
+- **Context & Environment**
+  - [15 – Industries](./15-industries.md)
+  - [16 – Market Trends](./16-market-trends.md)
+  - [17 – Startup vs Enterprise](./17-startup-vs-enterprise.md)
+
+- **Learning from Reality**
+  - [18 – Case Studies](./18-case-studies.md)
+  - [19 – Real-World Examples](./19-real-world-examples.md)
+
+- **Quality & Risk Management**
+  - [20 – Best Practices](./20-best-practices.md)
+  - [21 – Common Mistakes](./21-common-mistakes.md)
+  - [22 – Risks](./22-risks.md)
+
+- **Assets for Execution**
+  - [23 – Templates](./23-templates.md)
+  - [24 – Checklists](./24-checklists.md)
+  - [25 – Glossary](./25-glossary.md)
+
+
+### High-Level Overview (Beginner Friendly)
+
+**Market Opportunity Discovery** is the phase where organizations **identify and explore potential areas for new products, features, or platform capabilities**.  
+You are **not** designing the final solution here. You are:
+
+- Looking for **promising spaces** where value might exist.
+- Turning vague ideas into **structured opportunity hypotheses**.
+- Making sure these opportunities **align with strategy** and **have enough potential** to be worth deeper work.
+
+In enterprises and banks, this step is often triggered by:
+
+- New **strategic goals** (“grow SME lending by 20%”, “increase digital adoption”).
+- **Competitive threats** (a competitor launches an innovative product).
+- **Regulatory changes** that open new possibilities or require new capabilities.
+- Strong **customer feedback** or pain signals.
+
+The purpose is to generate well‑formed **opportunity hypotheses** that are worthy of deeper analysis, **not** to define solutions yet.
+
+
+### Objectives (Summary)
+
+> See detailed breakdown in [02 – Objectives](./02-objectives.md).
 
 - **Scan the environment** for signals (customer, market, regulatory, technology).
 - **Identify opportunities** aligned with company strategy and capabilities.
@@ -15,10 +85,12 @@ The purpose is to generate well-formed **opportunity hypotheses** that are worth
 - **Articulate hypotheses** about who benefits, how, and why now.
 - **Avoid premature solutioning**, keeping focus on the opportunity space.
 
-A strong output from this phase ensures that subsequent efforts are focused on **high-value, strategically aligned problems**.
+A strong output from this phase ensures that subsequent efforts are focused on **high‑value, strategically aligned problems**.
 
 
-### Activities
+### Core Activities (Summary)
+
+> Detailed step‑by‑step process is in [03 – Workflow](./03-workflow.md).
 
 - **Strategic Review**
   - Analyze company strategy, OKRs, and investment themes.
@@ -52,7 +124,11 @@ A strong output from this phase ensures that subsequent efforts are focused on *
   - Select a small set to progress to Problem Definition and Research.
 
 
-### Inputs
+### Inputs and Outputs (Summary)
+
+> Detailed explanation and examples in [06 – Data Sources](./06-data-sources.md) and [10 – Documents](./10-documents.md).
+
+**Typical Inputs**
 
 - Company and product **strategy documents** and annual plans.
 - Quarterly **OKRs** and investment themes.
@@ -62,24 +138,24 @@ A strong output from this phase ensures that subsequent efforts are focused on *
 - Regulatory **roadmaps and guidance** (for banks and regulated entities).
 - Existing **product and portfolio performance** metrics.
 
+**Typical Outputs**
 
-### Outputs
-
-- **Opportunity Backlog**: List of high-level opportunities with basic meta-data.
+- **Opportunity Backlog**: list of high-level opportunities with basic metadata.
 - **Opportunity Briefs** for top candidates, containing:
   - Target market and segments.
   - Main pain points or unmet needs.
   - Rough impact estimation (qualitative/quantitative).
   - Strategic alignment and urgency.
   - Key unknowns and assumptions.
-
 - **Prioritized Shortlist** of opportunities to take into the next phase.
 - Links to supporting data and references.
 
-These outputs are inputs to **Problem Definition** and **User & Market Research**.
+These outputs are key inputs to **Problem Definition** and **User & Market Research** in the broader Pre‑Development phase.
 
 
-### Roles Responsible
+### Roles & Collaboration
+
+> See [11 – Roles and Positions](./11-roles-and-positions.md) and [12 – Skills](./12-skills.md) for a deeper view.
 
 - **Primary**
   - Product Manager / Product Director
@@ -92,8 +168,12 @@ These outputs are inputs to **Problem Definition** and **User & Market Research*
   - Compliance / Regulatory Affairs (in banking)
   - Engineering Leadership (for feasibility insight)
 
+This phase works best when it is **cross‑functional** rather than owned by a single role.
 
-### Tools Commonly Used
+
+### Tools & Platforms
+
+> Detailed tool landscape is in [08 – Tools](./08-tools.md).
 
 - **Strategy & Portfolio**
   - Aha!, Productboard, Jira Product Discovery, internal portfolio tools.
@@ -105,31 +185,40 @@ These outputs are inputs to **Problem Definition** and **User & Market Research*
   - Industry reports, analyst portals, press releases, competitive intelligence platforms.
 
 
-### Example Scenario
+### Example Scenario (Beginner-Friendly Walkthrough)
 
-A large retail bank wants to grow **SME lending**. Signals include:
+> Additional scenarios and case write‑ups are in [18 – Case Studies](./18-case-studies.md) and [19 – Real-World Examples](./19-real-world-examples.md).
+
+Imagine a large retail bank that wants to grow **SME lending**. You are a **new product manager** in the SME segment.
+
+You start seeing signals:
 
 - Competitors offering instant online SME loans with minimal paperwork.
 - Customer feedback indicating frustration about branch-only processes.
 - Regulatory initiatives encouraging SME financing.
 
-The PM and business strategist:
+You and the business strategist:
 
 1. Analyze **portfolio performance** and find SME loans have high margin but low growth.
 2. Discover from **customer interviews** that SMEs want fast decisions without visiting branches.
 3. Identify an **opportunity**: a digital SME credit line product with near real-time approvals.
 
-They create an opportunity brief with:
+You then create an **opportunity brief**:
 
 - Target segment: small business owners with stable cash flow.
 - Problem: existing process is slow, opaque, and friction-heavy.
 - Rough impact: potential 20% increase in SME loan originations.
 - Strategic alignment: maps directly to the bank’s SME growth objective.
+- Key risks: credit risk models, fraud detection, operational readiness.
 
-This becomes a top candidate for deeper Problem Definition.
+This becomes a top candidate for deeper **Problem Definition** and **User & Market Research**.
 
 
-### Best Practices
+### Best Practices & Common Pitfalls
+
+> Deep dives in [20 – Best Practices](./20-best-practices.md) and [21 – Common Mistakes](./21-common-mistakes.md).
+
+**Best Practices**
 
 - **Tie opportunities to strategy**: Avoid random ideas; require alignment with clear objectives.
 - **Use data, not just anecdotes**: Combine qualitative and quantitative signals.
@@ -138,8 +227,7 @@ This becomes a top candidate for deeper Problem Definition.
 - **Keep opportunity briefs short**: Aim for clarity, not heavy documentation at this stage.
 - **Involve multiple functions**: Different perspectives help identify both value and risk.
 
-
-### Common Mistakes
+**Common Mistakes**
 
 - **Jumping to solutions** (“We should build an app with X feature”) without clear opportunity framing.
 - **Ignoring constraints** such as regulatory deadlines, platform limitations, or capacity.
@@ -147,4 +235,18 @@ This becomes a top candidate for deeper Problem Definition.
 - **Under-documenting**: Failing to record rationale and assumptions leads to misalignment later.
 - **Overcommitting too early**: Treat opportunities as hypotheses until validated.
 
-Use this phase to generate **high-quality opportunity hypotheses**; refinement and validation happen in subsequent phases.
+
+### Where to Go Next
+
+- If you’re **just starting**, open **[01 – Concepts](./01-concepts.md)** to understand the basic language and mental models.
+- If you need to **run a discovery cycle soon**, jump to:
+  - [03 – Workflow](./03-workflow.md)
+  - [23 – Templates](./23-templates.md)
+  - [24 – Checklists](./24-checklists.md)
+- If you want to **speak the same language as senior stakeholders**, bookmark:
+  - [07 – Opportunity Evaluation](./07-opportunity-evaluation.md)
+  - [09 – Metrics](./09-metrics.md)
+  - [25 – Glossary](./25-glossary.md)
+
+Use this folder as both a **learning resource** and a **practical toolkit** for real projects.
+
