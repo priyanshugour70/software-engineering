@@ -1,150 +1,175 @@
-## Business Case & ROI Analysis
+## Feasibility Study (Technical, Operational, Risk)
 
-### Overview
+### What This Folder Is
 
-**Business Case & ROI Analysis** evaluates whether an initiative is **financially and strategically justified**. In enterprises and banks, this phase determines **investment priority**, helps secure funding, and sets expectations for measurable outcomes.
+This folder is a **full handbook** for the *Feasibility Study* phase.
 
-It connects user and market insights to **financial models, risk assessments, and alignment with corporate strategy**.
+It explains how to go from:
 
+- a funded **business case** and initial solution concept  
+to:
+- a **realistic, risk‑aware plan** that confirms:
+  - can we build this, with what architecture?
+  - can we operate it safely and reliably?
+  - can we comply with security, legal, and regulatory requirements?
+  - what risks, dependencies, and constraints must be addressed?
 
-### Objectives
+If you are a **beginner**, start with `01-concepts.md`.  
+If you are **experienced**, use the table of contents below to jump to specific topics.
 
-- **Quantify expected benefits** (revenue, cost savings, risk reduction).
-- **Estimate costs and investments** (development, operations, change management).
-- **Calculate ROI, NPV, and payback period** where appropriate.
-- **Evaluate risks and sensitivities** in the financial model.
-- **Provide a clear go/no-go recommendation** or prioritization input.
+### Quick Table of Contents (Click to Navigate)
 
-This phase often results in a formal business case or investment proposal reviewed by senior leadership.
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – Workflow](./03-workflow.md)
+  - [04 – Feasibility Dimensions](./04-feasibility-dimensions.md)
+  - [05 – Technical Feasibility](./05-technical-feasibility.md)
+  - [06 – Operational Feasibility](./06-operational-feasibility.md)
+  - [07 – Legal & Regulatory Feasibility](./07-legal-and-regulatory-feasibility.md)
+  - [08 – Security & Privacy Feasibility](./08-security-and-privacy-feasibility.md)
+  - [09 – Scalability, Performance & Resilience](./09-scalability-performance-and-resilience.md)
+- **Execution Enablers**
+  - [10 – Documents & Artifacts](./10-documents-and-artifacts.md)
+  - [11 – Tools](./11-tools.md)
+  - [12 – Data & Inputs](./12-data-and-inputs.md)
+- **People & Skills**
+  - [13 – Roles and Positions](./13-roles-and-positions.md)
+  - [14 – Skills](./14-skills.md)
+  - [15 – Job Market](./15-job-market.md)
+  - [16 – Salary Benchmarks](./16-salary-benchmarks.md)
+- **Context & Patterns**
+  - [17 – Contexts and Domains](./17-contexts-and-domains.md)
+  - [18 – Startup vs Enterprise](./18-startup-vs-enterprise.md)
+  - [19 – Option & Risk Trade‑Offs](./19-option-and-risk-tradeoffs.md)
+- **Learning from Examples**
+  - [20 – Case Studies](./20-case-studies.md)
+  - [21 – Real-World Examples](./21-real-world-examples.md)
+- **Quality & Risk Management**
+  - [22 – Risk Register & Mitigation](./22-risk-register-and-mitigation.md)
+  - [23 – Best Practices](./23-best-practices.md)
+  - [24 – Common Mistakes](./24-common-mistakes.md)
+- **Assets for Execution**
+  - [25 – Templates](./25-templates.md)
+  - [26 – Checklists](./26-checklists.md)
+  - [27 – Glossary](./27-glossary.md)
 
+### Overview (Beginner Friendly)
 
-### Activities
+A **Feasibility Study** answers:
 
-- **Benefit Estimation**
-  - Revenue impact (new sales, upsell, cross-sell).
-  - Cost impact (automation, reduced errors, process efficiency).
-  - Risk impact (lower fraud, better compliance, fewer fines).
-  - Intangible benefits (brand, customer satisfaction) annotated where harder to quantify.
+> “Can we actually deliver and run this initiative, in our real environment, within our constraints and risk appetite?”
 
-- **Cost Estimation**
-  - One-time development costs (engineering, design, testing).
-  - Infrastructure and licensing costs (cloud, SaaS tools).
-  - Operational costs (support, maintenance, monitoring).
-  - Change management and training costs.
+It is not just about technology. A robust feasibility study considers at least:
 
-- **Financial Modeling**
-  - Build multi-year cash flow models.
-  - Calculate ROI, IRR, NPV, and payback period.
-  - Run **scenario and sensitivity analyses** (e.g., best case, base case, worst case).
+- **Technical feasibility**
+  - architectures, integrations, data flows, performance, resilience.
+- **Operational feasibility**
+  - processes, staffing, support models, SLAs.
+- **Security & privacy feasibility**
+  - threats, controls, data protection, threat models.
+- **Legal & regulatory feasibility**
+  - licensing, reporting, KYC/AML, data residency, consumer protection.
+- **Organizational & change feasibility**
+  - skills, readiness, competing programs, change saturation.
 
-- **Risk & Dependency Assessment**
-  - Identify major risks (delivery, adoption, regulatory, vendor).
-  - Evaluate impact and likelihood.
-  - Propose mitigations and risk owners.
+The goal is to **de‑risk delivery and operations** before committing to a detailed architecture and full‑scale build.
 
-- **Portfolio Fit Analysis**
-  - Compare initiative against other opportunities in the portfolio.
-  - Ensure alignment with strategic objectives and capacity.
+### Objectives (Summary)
 
-- **Business Case Document & Review**
-  - Summarize rationale, figures, and recommendations.
-  - Conduct review with finance, strategy, and leadership committees.
+> Detailed in `02-objectives.md`.
 
+- Confirm that **viable solution options exist** within constraints.
+- Identify **major risks and dependencies** early, with mitigation options.
+- Provide **architecture and operating model direction**:
+  - reference architectures,
+  - integration patterns,
+  - target support and process changes.
+- Provide inputs to:
+  - refinements of Business Case & ROI,
+  - architecture governance (e.g., RFCs, design reviews),
+  - delivery planning (scope, phases, timelines).
 
-### Inputs
+### Activities (Summary)
 
-- **Problem statement** and **user research** insights.
-- Initial **solution concepts** or options.
-- Rough **effort estimates** from engineering and operations.
-- Market sizing and **competitive analysis**.
-- Historical data (e.g., baseline metrics, past project performance).
+> Step‑by‑step in `03-workflow.md`.
 
+- Analyze existing architecture and systems affected.
+- Explore and evaluate solution options:
+  - build vs buy vs partner,
+  - reuse of existing capabilities,
+  - high‑level data and integration flows.
+- Assess operational impact:
+  - process changes,
+  - roles and staffing,
+  - support models and SLAs.
+- Engage security, privacy, legal, and risk teams to:
+  - identify compliance requirements,
+  - evaluate threats and controls,
+  - surface feasibility constraints.
+- Consolidate findings into:
+  - feasibility report,
+  - risk register,
+  - recommendations and next‑step plan.
 
-### Outputs
+### Inputs & Outputs (Summary)
 
-- **Business Case Document**, including:
-  - Executive summary.
-  - Strategic fit and objectives.
-  - Benefit and cost breakdown.
-  - Financial metrics (ROI, NPV, payback).
-  - Risks, dependencies, and mitigations.
-  - Recommendation (e.g., proceed, pivot, delay).
+**Inputs**
 
-- **Investment Decision**
-  - Funding approval or rejection.
-  - Prioritization against other initiatives.
+- Approved or draft **Business Case & ROI**.
+- Problem statements and **user research**.
+- Existing architecture diagrams and system inventories.
+- Policy, risk, and regulatory requirements.
 
-- **High-Level Targets**
-  - KPIs and financial metrics to track post-launch.
+**Outputs**
 
+- **Feasibility Report / RFC Input**
+  - summary of findings per feasibility dimension,
+  - recommended solution direction,
+  - constraints and assumptions.
+- **Risk Register with Mitigation Plan**
+  - technical, operational, legal, security risks.
+- **Updated Business Case / Plan**
+  - cost and risk adjustments,
+  - phasing and scope recommendations.
 
-### Roles Responsible
+### Roles Responsible (Summary)
+
+> See `13-roles-and-positions.md`.
 
 - **Primary**
-  - Product Manager / Product Owner
-  - Business Owner / P&L Owner
-  - Finance Partner
-
+  - Architecture / Engineering Lead,
+  - Product Manager,
+  - Business / Operations Owner.
 - **Supporting**
-  - Data Analyst
-  - Engineering Manager (for cost estimation)
-  - Strategy / Portfolio Management
-  - Risk / Compliance (for risk quantification)
+  - Security & Privacy,
+  - Risk & Compliance,
+  - Legal,
+  - Data / BI,
+  - Platform & Infrastructure teams,
+  - Support / Service management.
 
+### Example Scenario (Digital SME Lending)
 
-### Tools Commonly Used
+> Detailed examples in `20-case-studies.md`.
 
-- Financial modeling in **Excel or Google Sheets**.
-- Portfolio tools (e.g., Planview, internal tools).
-- Analytics platforms for **historical data**.
-- Documentation (Confluence, Word, Google Docs).
-- Presentation tools for executive readouts (PowerPoint, Slides).
+For a digital SME lending initiative, the feasibility study would:
 
+- evaluate:
+  - credit decision engine capabilities,
+  - required integrations (core banking, bureaus, KYC, fraud),
+  - performance and resilience requirements.
+- assess:
+  - branch vs digital operations impacts,
+  - support models for declined/flagged cases,
+  - KYC/AML and lending regulation constraints.
 
-### Example Scenario
+The study might recommend:
 
-For the **digital SME lending** project:
+- starting with **limited segments and ticket sizes**,
+- reusing existing platforms,
+- and adding:
+  - new APIs,
+  - risk controls,
+  - operational playbooks.
 
-- **Benefits**:
-  - Increased loan volume by 15–20%.
-  - Higher cross-sell of treasury products.
-  - Lower processing cost per loan due to automation.
-  - Reduced default risk due to better data and analytics.
-
-- **Costs**:
-  - Engineering and design for 12–18 months.
-  - Integration with credit bureaus and KYC providers.
-  - Cloud infrastructure and security solutions.
-  - Training for relationship managers and support teams.
-
-Financial modeling indicates:
-
-- Payback period of ~2.5 years.
-- Positive NPV at the chosen discount rate.
-- Sensitivity shows ROI is highly sensitive to **adoption rate** and **approval conversion**.
-
-The business case is presented to an investment committee, which approves funding with conditions:
-
-- Phase-gated funding with specific **milestones and metrics**.
-- Early MVP must demonstrate at least 10% increase in application completion rate.
-
-
-### Best Practices
-
-- **Use realistic assumptions**: Validate with data where possible; document sources.
-- **Include multiple scenarios**: Highlight how results change under different assumptions.
-- **Align metrics with product analytics**: Ensure post-launch tracking can validate the business case.
-- **Collaborate with finance early**: Avoid surprises during approval.
-- **Capture non-financial benefits**: Even if hard to quantify, document qualitatively.
-- **Iterate after discovery and pilot**: Update business case with new data.
-
-
-### Common Mistakes
-
-- **Over-optimistic projections** with no link to real data or benchmarks.
-- **Ignoring ongoing operational costs** (e.g., support, maintenance, compliance overhead).
-- **Not updating the business case** after major scope or environment changes.
-- **Treating business case as political tool**, inflating benefits to get approval.
-- **No connection to post-launch measurement**, making it hard to evaluate success.
-
-A trustworthy business case builds confidence and ensures that **capital is allocated to the highest-value initiatives**.
