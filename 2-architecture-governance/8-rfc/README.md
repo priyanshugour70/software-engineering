@@ -1,113 +1,226 @@
 ## RFC / Technical Proposal
 
-### Overview
+### What This Folder Is
 
-The **RFC (Request for Comments) / Technical Proposal** phase produces a **structured, reviewable document** describing a significant technical change or new system. It is the primary mechanism for **cross-team alignment and architectural decision-making**.
+This folder is a **complete handbook** for the *RFC / Technical Proposal* phase.
 
-In enterprises and banks, RFCs often serve as official records that support audits, risk assessments, and technical governance.
+It explains how to go from:
 
+- high‑level requirements and roadmaps  
+to:
+- **clear, structured technical proposals (RFCs)** that:
+  - compare solution options,
+  - document trade‑offs and decisions,
+  - and align architects, engineers, security, risk, and business.
 
-### Objectives
+If you are a **beginner**, start with `01-concepts.md` and read in order.  
+If you are **experienced**, use the table of contents below to jump to specific topics.
 
-- **Describe the context and problem** from a technical perspective.
-- **Propose one or more solution options** with rationale and trade-offs.
-- **Obtain feedback and approval** from relevant stakeholders.
-- **Document decisions** and alternatives for future reference.
-- **Provide input to detailed architecture design and implementation**.
+---
 
-RFCs scale architectural decision-making across multiple teams and domains.
+### Quick Table of Contents (Click to Navigate)
 
+- **Foundations**
+  - [01 – Concepts](./01-concepts.md)
+  - [02 – Objectives](./02-objectives.md)
+  - [03 – When & When Not to Use an RFC](./03-when-to-use-an-rfc.md)
+  - [04 – Workflow](./04-workflow.md)
+  - [05 – RFC Structure & Authoring](./05-rfc-structure-and-authoring.md)
+  - [06 – Option Analysis & Trade‑offs](./06-option-analysis-and-tradeoffs.md)
+  - [07 – Diagrams & Technical Content](./07-diagrams-and-technical-content.md)
+  - [08 – Security, Compliance & Risk in RFCs](./08-security-compliance-and-risk-in-rfcs.md)
+- **Execution Enablers**
+  - [09 – Tools](./09-tools.md)
+  - [10 – Documents & Artifacts](./10-documents-and-artifacts.md)
+- **People & Skills**
+  - [11 – Roles and Positions](./11-roles-and-positions.md)
+  - [12 – Skills](./12-skills.md)
+  - [13 – Job Market](./13-job-market.md)
+  - [14 – Salary Benchmarks](./14-salary-benchmarks.md)
+- **Context & Collaboration**
+  - [15 – Contexts and Domains](./15-contexts-and-domains.md)
+  - [16 – Startup vs Enterprise](./16-startup-vs-enterprise.md)
+  - [17 – Regulated vs Unregulated Products](./17-regulated-vs-unregulated-products.md)
+  - [18 – Collaboration with Product & Requirements](./18-collaboration-with-product-and-requirements.md)
+  - [19 – Collaboration with Security, Risk & Ops](./19-collaboration-with-security-risk-and-ops.md)
+- **Learning from Practice**
+  - [20 – Case Studies](./20-case-studies.md)
+  - [21 – Real‑World Examples](./21-real-world-examples.md)
+- **Quality & Governance**
+  - [22 – Best Practices](./22-best-practices.md)
+  - [23 – Common Mistakes](./23-common-mistakes.md)
+  - [24 – Governance, Review & Lifecycle](./24-governance-review-and-lifecycle.md)
+- **Assets for Execution**
+  - [25 – Templates](./25-templates.md)
+  - [26 – Checklists](./26-checklists.md)
+  - [27 – Glossary](./27-glossary.md)
 
-### Activities
+---
+
+### Overview (Beginner Friendly)
+
+An **RFC (Request for Comments) / Technical Proposal** is:
+
+- a **structured, reviewable document** describing a significant technical change or new system,
+- the primary mechanism for:
+  - **cross‑team alignment**,
+  - **architectural decision‑making**,
+  - and **governance and approvals**.
+
+In enterprises and banks, RFCs often:
+
+- act as **official records** supporting:
+  - audits,
+  - risk assessments,
+  - architecture reviews.
+
+They sit between:
+
+- **Requirements** (what we need)  
+and:
+- **Architecture Design & Implementation** (how we will build and run it).
+
+---
+
+### Objectives (Summary)
+
+> Detailed breakdown in `02-objectives.md`.
+
+- **Describe context and problem** from a technical and architectural perspective.
+- **Propose and compare solution options**, with:
+  - rationale,
+  - trade‑offs,
+  - and risk/impact analysis.
+- **Obtain feedback and approval** from all relevant stakeholders:
+  - product, engineering, architecture,
+  - security, risk, compliance, operations.
+- **Document decisions and alternatives** for future reference:
+  - for audits,
+  - for new joiners,
+  - for future redesigns.
+- **Provide input to detailed design and implementation**:
+  - architecture design,
+  - backlog planning,
+  - security and compliance work.
+
+---
+
+### Activities (Summary)
+
+> Step‑by‑step in `04-workflow.md`.
 
 - **RFC Scoping**
-  - Decide whether a change warrants an RFC (based on impact, risk, or cross-team dependencies).
-  - Clarify objectives, success criteria, and constraints.
-
+  - decide whether a change needs an RFC (based on impact, risk, cross‑team dependencies),
+  - clarify objectives, constraints, and success criteria.
 - **Drafting the RFC**
-  - Capture context, problem, goals, and non-goals.
-  - Describe current state, proposed solution(s), and alternatives.
-  - Document high-level architecture, data flows, and APIs.
-  - Add security, compliance, and operational considerations.
-
+  - capture:
+    - context, problem, goals, non‑goals,
+    - current state,
+    - proposed solution(s),
+    - alternatives and trade‑offs,
+    - high‑level architecture and data flows,
+    - security, compliance, and operational considerations.
 - **Review & Feedback**
-  - Share with architects, engineering leads, product, security, and compliance.
-  - Conduct asynchronous reviews and review meetings as needed.
-  - Capture comments, Q&A, and design discussions.
+  - share with key reviewers,
+  - run async reviews and live sessions,
+  - capture comments, Q&A, design discussions.
+- **Decision & Sign‑Off**
+  - converge on a recommended option,
+  - document decisions, approvals, and conditions,
+  - record status (Draft → In Review → Accepted/Rejected/Superseded).
+- **Post‑Decision Updates**
+  - keep RFC updated when major assumptions change,
+  - link to:
+    - architecture design documents,
+    - implementation tickets,
+    - security and risk artefacts.
 
-- **Decision & Sign-Off**
-  - Converge on a recommended approach.
-  - Document decisions, approvals, and conditions.
-  - File the RFC in a version-controlled repository.
+---
 
-- **Post-Decision Updates**
-  - Keep RFC updated with major changes.
-  - Link to downstream design docs and implementation tickets.
+### Inputs & Outputs (Summary)
 
+**Inputs**
 
-### Example RFC Structure
+- Product strategy and roadmap.
+- Requirements and PRDs (including NFRs).
+- Feasibility studies and technical assessments.
+- Enterprise architecture principles and standards.
+- Security and compliance baseline requirements.
 
-Below is a commonly used RFC template:
+**Outputs**
 
-```markdown
-# RFC-001: Digital SME Lending Platform – Technical Proposal
+- **RFC Document(s)**:
+  - unique ID, status, and ownership,
+  - recorded decisions and rationale.
+- **Architecture Decision Records (ADRs)** (optional but recommended):
+  - compact decision summaries linked to RFCs.
+- **Links to Downstream Artefacts**:
+  - architecture design docs,
+  - backlog items (epics/stories),
+  - security/compliance tickets.
 
-## 1. Metadata
-- Author: Jane Doe
-- Status: Draft | In Review | Accepted | Rejected | Superseded
-- Created: 2026-03-13
-- Reviewers: Architecture, Security, Risk, Ops
-- Related Documents: PRD-123, Feasibility Study v1.1
+These outputs:
 
-## 2. Summary
-Short paragraph summarizing the proposed change and its expected impact.
+- feed into `9-architecture-design`,
+- are referenced in `10-security-review` and `11-compliance-risk`,
+- and stay as **long‑term decision evidence**.
 
-## 3. Context & Problem Statement
-- Business context and drivers.
-- Current system/process limitations.
-- Why existing approaches are insufficient.
+---
 
-## 4. Goals & Non-Goals
-- Goals describe what the proposal aims to address.
-- Non-goals clarify what is explicitly out of scope.
+### Roles Responsible (Summary)
 
-## 5. Proposed Solution
-- High-level architecture and components.
-- Technology choices and rationale.
-- Data model overview.
-- Interactions with existing systems.
+> Detailed in `11-roles-and-positions.md`.
 
-## 6. Alternatives Considered
-- Option A: Description, pros/cons.
-- Option B: Description, pros/cons.
-- Rationale for selecting the proposed solution.
+- **Primary**
+  - Senior Engineers / Tech Leads,
+  - Solution / Domain Architects,
+  - sometimes Staff/Principal Engineers.
+- **Supporting**
+  - Product Managers / Product Owners,
+  - Security Architects / Engineers,
+  - Risk / Compliance partners,
+  - Operations / SRE / Platform leads.
 
-## 7. Architecture & Diagrams
-- Logical architecture.
-- Deployment topology.
-- Sequence diagrams for key flows.
+RFCs are most effective when:
 
-## 8. Security, Compliance & Privacy
-- Threat model summary.
-- Data classification and protection.
-- Compliance considerations (e.g., KYC/AML, GDPR).
+- they are **owned** by a clear technical leader,
+- but **co‑authored and reviewed** with all impacted roles.
 
-## 9. Operational Considerations
-- Scalability, performance, and availability.
-- Monitoring and observability.
-- Deployment strategies and rollback.
-- Backups and disaster recovery.
+---
 
-## 10. Migration / Rollout Plan
-- Phasing, co-existence strategy, data migration, cutover.
+### Example RFC Structure (At a Glance)
 
-## 11. Risks & Open Questions
-- Known risks and mitigations.
-- Items needing further research or decisions.
+> Full templates and worked examples in `05-rfc-structure-and-authoring.md` and `25-templates.md`.
 
-## 12. Decision & Approvals
-- Decision summary.
-- List of approvers and dates.
+Typical sections:
 
-## 13. Appendix
-- Detailed diagrams, links, POCs, benchmarks.
+- metadata (ID, author, status, reviewers, related documents),
+- summary,
+- context & problem statement,
+- goals & non‑goals,
+- proposed solution,
+- alternatives considered,
+- architecture & diagrams,
+- security, compliance & privacy,
+- operational considerations,
+- migration / rollout plan,
+- risks & open questions,
+- decision & approvals,
+- appendices.
+
+---
+
+### How This Phase Connects to Others
+
+- Takes **direction and constraints** from:
+  - `1-pre-development` (especially strategy, feasibility, and requirements).
+- Feeds into:
+  - `9-architecture-design` for deeper design work,
+  - `10-security-review` and `11-compliance-risk` for more focused assessments.
+- Produces:
+  - durable records of **why a particular technical path was chosen**,  
+  - which are critical in:
+    - long‑lived systems,
+    - regulated environments,
+    - and complex enterprises.
+
